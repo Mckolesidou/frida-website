@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 
+
 const Home = () => {
     const[isOpen, setIsOpen] = useState(false);
 

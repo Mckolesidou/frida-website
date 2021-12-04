@@ -119,22 +119,29 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <Menu>
                         <MenuItem>
-                            <NavLinks to='home'>Home</NavLinks>
+                            <NavLinks to='paintings'
+                            smooth={true} duration={500} spy={true} exact='true'
+                            >Paintings</NavLinks>
                         </MenuItem>
                         <MenuItem>
-                            <NavLinks to='paintings'>Paintings</NavLinks>
+                            <NavLinks to='feminism'
+                            smooth={true} duration={500} spy={true} exact='true'
+                            >Feminism</NavLinks>
                         </MenuItem>
                         <MenuItem>
-                            <NavLinks to='feminism'>Feminism</NavLinks>
+                            <NavLinks to='bio'
+                            smooth={true} duration={500} spy={true} exact='true'
+                            >Biography</NavLinks>
                         </MenuItem>
                         <MenuItem>
-                            <NavLinks to='bio'>Biography</NavLinks>
+                            <NavLinks to='quotes'
+                            smooth={true} duration={500} spy={true} exact='true'
+                            >Quotes</NavLinks>
                         </MenuItem>
                         <MenuItem>
-                            <NavLinks to='quotes'>Quotes</NavLinks>
-                        </MenuItem>
-                        <MenuItem>
-                            <NavLinks to='contact'>Contact</NavLinks>
+                            <NavLinks to='contact'
+                            smooth={true} duration={500} spy={true} exact='true'
+                            >Contact</NavLinks>
                         </MenuItem>
                     </Menu>
                 </Left>

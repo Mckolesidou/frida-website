@@ -40,12 +40,12 @@ const Wrapper = styled.div`
 const Menu = styled.ul`
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:repeat(8,80px);
+    grid-template-rows:repeat(7,80px);
     text-align:center;
     padding-left:0;
 
     @media screen and (max-width:480px){
-        grid-template-rows:repeat(7, 60px);
+        grid-template-rows:repeat(6, 60px);
     }
 
 `;
@@ -100,7 +100,6 @@ const Sidebar = ({isOpen,toggle}) => {
             </Icon>
             <Wrapper>
                 <Menu>
-                    <Link to='home' onClick={toggle}>Home</Link>
                     <Link to='paintings' onClick={toggle}>Paintings</Link>
                     <Link to='feminism' onClick={toggle}>Feminism</Link>
                     <Link to='bio' onClick={toggle}>Biography</Link>
